@@ -1,0 +1,27 @@
+@media(max-width: 768px){
+    main {
+        display :block;
+    }
+    .logo{
+        width: 132px;
+    }
+    .dark-mode{
+        right: 30px;
+    } 
+    main{
+        margin-left: 0px;
+    }
+    .input-texto {
+        width: 90%;
+    }
+    .mensaje{
+        margin-left: 0px;
+    }
+    .copiar{
+        margin-top:0px ;
+        margin-left: ;
+    }
+    .section-text-btn{
+       margin-left: 0; 
+    }
+}

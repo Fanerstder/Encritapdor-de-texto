@@ -1,0 +1,144 @@
+:root{
+    --color-orange:#ff8400;
+    --color-black-dark: #171a26;
+    --color-white-bone: #f5f7fb;
+}
+body{
+    background-color:var(--color-orange);
+    text-align :center;
+    margin: 0 auto;
+    justify-content:center;    
+}
+.section-text-btn{
+    text-align :center;
+    margin-left: 90px;
+    justify-content :center;
+}
+.container-main{
+    text-align :center;
+    justify-content :center;
+}
+.container-mensaje{
+    background-color:#FFFFFF ;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 60px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius:20px;
+    aling-item :center;
+    justify-content :center;
+    text-align :center;
+}
+.header {
+  background-color: none;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo{
+    width: 280px;
+    font-size: ;
+    font-weight:400;
+    line-height :;
+    background: ;
+}
+.dark-mode{
+    background:#ff8400 ;
+    border-radius: 1000px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    outline: none;
+    position: relative;
+    height: 30px;
+}
+.dark-mode::after {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  background: var(--color-white-bone);
+  top: 0;
+  left: 0;
+  right: unset;
+  border-radius: 100px;
+  transition: 0.3s ease all;
+  box-shadow: 0px 0px 2px 2px rgb(0, 0, 0, 0.2);
+}
+
+.dark-mode.active::after {
+  background: #191920;
+  color: #000000;
+  right: 0;
+  left: unset;
+}
+
+.dark-mode span {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  display: block;
+  background: none;
+  color: var(--color-white-bone);
+}
+
+main{
+    
+    display:flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+.container-main{
+    
+    
+}
+.input-texto{
+    margin-top: 10px;
+    height: 150px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+.btn {
+   color:white;
+   border-radius:20px;
+   background: var(--color-orange);
+}
+.desencriptar {
+    margin-left:30px;
+}
+.información{
+    font-size:15px ;
+}
+.mensaje{
+    position: relative;
+    margin-top: 10px;
+    
+    height: 150px;
+    background-image: url("img/Icon-message.png");
+    background-repeat:no-repeat ;
+    background-size: 150px;
+    background-position:18px ;
+}
+.botones{
+    display :flex;
+    flex-direction :row;
+    margin-left: ;
+    margin-top: 20px;
+}
+.copiar{
+    position: relative;
+}
+.box-mensaje-alerta{
+    line-height :30px;
+}
+.box-mensaje{
+    font-size :14px;
+    font-weight :700;
+}
+
+.box-mensaje2{
+    font-size :10px;
+    font-weight :400;
+}

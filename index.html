@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://kit.fontawesome.com/09da4e91ad.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>Encritador de texto</title>
+</head>
+<body>
+    <div class="section-mensage">
+        <div class="container-mensaje">
+            <header class="header">
+        <img class ="logo" src="img/Logo.png" alt="">
+      <!--   <div class="container-darkMode" id="switch-mode">
+            <button class="dark-mode">
+            <span><i class="fa-solid fa-sun"></i></span>
+            <span><i class="fa-solid fa-moon"></i></span>
+        </button>
+        </div> -->
+    </header>
+    <main>
+        <section class="container-main">
+            <textarea 
+            class ="input-texto"
+            placeholder ="Ingrese el texto aqui"
+            cols="40" rows="6"></textarea>
+            <div class="botones">
+                <button 
+                class="btn encriptar"
+                onclick ="btnEncritar()"
+                >Encriptar</button>
+                <button
+                 class=" btn desencriptar"
+                 onclick ="btnDesencriptar()"
+                 >Desencriptar</button>
+            </div>
+        </section>
+        <section class="section-text-btn">
+            <div class="container-box-mensaje">
+                <textarea class="mensaje" cols="18" rows="8"></textarea>
+                <div class="box-mensaje-alerta">
+                    <span class="box-mensaje">
+                        Ningún mensaje fue encontrado.
+                    </span>
+                    <div>
+                        <span class="box-mensaje2">
+                        Ingresa el texto que deseas encritar o desencriptar
+                    </span>
+                    </div> 
+                </div>
+            <button class="btn copiar"
+            onclick ="copyToClipBoard">Copiar</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        Copyright 2023 - <a href="">Faner Santander</a>
+    </footer>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
